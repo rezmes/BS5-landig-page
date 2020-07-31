@@ -1,0 +1,27 @@
+.gradient {
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #090979 35%, #e300ff 100%); }
+
+html, body {
+  height: 100%;
+  font-size: 1rem; }
+
+/* border box fix */
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+nav img {
+  height: 2rem;
+  padding: 0px;
+  margin: 0px; }
+
+.page-header {
+  margin-top: 4rem;
+  font-size: 2rem;
+  color: #fff;
+  font-family: sahel; }

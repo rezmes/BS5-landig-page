@@ -1,0 +1,35 @@
+@import 'color';
+
+
+html, body {
+    height: 100%;
+    font-size: 1rem;
+}
+/* border box fix */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+nav {
+
+    img {
+        
+            height: 2rem;
+            padding: 0px;
+            margin: 0px;
+    }       
+}
+
+    .page-header {
+        margin-top: 4rem;
+        font-size: 2rem;
+        color: $light;
+        font-family: sahel;
+    }
