@@ -33,3 +33,70 @@ nav {
         color: $light;
         font-family: sahel;
     }
+    .btn {
+        width: 10rem;
+    }
+
+    section {
+        .g-3{
+        img {
+            width: 7rem;
+        }
+    }
+    }
+
+    .feature {
+            ul {
+                padding-right: 2rem;
+                list-style-type: none;
+                li {
+                    padding-right: 2rem;
+                    background-image: url(../img/check.svg);
+                    background-repeat: no-repeat;
+                    background-position-x: right;
+                    background-position-y: center;
+                    line-height: 1.5rem;
+                    margin-bottom: 2rem;
+                                       
+                }
+
+            }
+    }
+.icon {
+    color: $light;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.gallery {
+    background-color: darken($smok, 10%);
+    border: none;
+    img {
+        border-radius: 5%;
+    }
+}
+
+.pathborder {
+    border:1px;
+    border-color: $light;
+}
+
+.faseleh {
+    width: 100%;
+    height: 50px;
+    color: $light;
+    border: 1px;
+    border-color: $light;
+    background-color: $light;
+
+}
+
+.services {
+    color:$light;
+}
